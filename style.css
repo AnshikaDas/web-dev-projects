@@ -1,0 +1,17 @@
+/*CSS Reset*/
+/*CSS Variables*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --navbar-height: 59px;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+/*navigation bar: logo and image */
+#logo{
+    margin: 3px;
+}
