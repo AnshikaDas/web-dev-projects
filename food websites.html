@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best online Meals in India| My online meal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@700&family=Oswald&family=Trochut:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,12 +17,96 @@
             <img src="logo.jpg" alt="My online meal.com">
         </div>
         <ul>
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">About</a></li>
-            <li class="item"><a href="#">Services</a></li>
-            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#client-section">Our clients</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#Contact">Contact Us</a></li>
         </ul>
     </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to my online meal</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptatem minima quia distinctio nulla
+            laudantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illum.</p>
+
+        <buttton class="btn">Order Now</buttton>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center"> Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="burger.webp" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, non tempore aliquid
+                    maiores, repellat
+                    quo facere sit ea autem velit, magnam mollitia iure aspernatur fugiat aut! Error neque
+                    reprehenderit, repudiandae beatae itaque assumenda</p>
+
+            </div>
+            <div class="box">
+                <img src="img2.webp" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, non tempore aliquid
+                    maiores, repellat
+                    quo facere sit ea autem velit, magnam mollitia iure aspernatur fugiat aut! Error neque
+                    reprehenderit, repudiandae beatae itaque assumenda commodi.</p>
+
+            </div>
+            <div class="box">
+                <img src="img3.jpg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, non tempore aliquid
+                    maiores, repellat
+                    quo facere sit ea autem velit, magnam mollitia iure aspernatur fugiat aut! Error neque
+                    reprehenderit, repudiandae beatae itaque assumenda commodi.</p>
+
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="client">
+            <div class="client-item"></div>
+            <img src="apple.jpg" alt="Our CLients">
+        </div>
+        <div class="client-item"></div>
+        <img src="skype.jfif" alt="Our CLients">
+        </div>
+        <div class="client-item"></div>
+        <img src="img4.jpg" alt="Our CLients">
+        </div>
+        <div class="client-item"></div>
+        <img src="micrsoft.webp" alt="Our CLients">
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="Email" name="Email" id="Name" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone</label>
+                    <input type="Phone" name="Phone" id="Name" placeholder="Enter your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.My online meal.com.All rights are reserved!
+        </div>
+    </footer>
 </body>
 
 </html>
